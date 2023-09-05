@@ -1,0 +1,380 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --index: calc(1vw+1vh);
+  --glutter: 20px;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: #1B1B1B;
+}
+
+.menu a {
+  text-decoration: none;
+  color: rgb(255, 145, 0);
+  padding-left: 5%;
+  margin: 20px;
+}
+
+.logo > img {
+  height: 70px;
+  width: 70px;
+  margin-top: 20px;
+}
+
+.menu > .home {
+  border: 1px solid whitesmoke;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.menu > .home:hover {
+  background: rgb(255, 145, 0);
+  color: white;
+  transition: 0.7s;
+}
+
+.menu > .about {
+  border: 1px solid whitesmoke;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.menu > .about:hover {
+  background: rgb(255, 145, 0);
+  color: white;
+  transition: 0.7s;
+}
+
+.menu > .service {
+  border: 1px solid whitesmoke;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.menu > .service:hover {
+  background: rgb(255, 145, 0);
+  color: white;
+  transition: 0.7s;
+}
+
+.menu > .price {
+  border: 1px solid whitesmoke;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.menu > .price:hover {
+  background: rgb(255, 145, 0);
+  color: white;
+  transition: 0.7s;
+}
+
+.menu > .contact {
+  border: 1px solid whitesmoke;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.menu > .contact:hover {
+  background: rgb(255, 145, 0);
+  color: white;
+  transition: 0.7s;
+}
+
+.menu > .lan {
+  float: right;
+  padding: 25px;
+  align-items: flex-end;
+}
+
+.uz {
+  appearance: none;
+  border: 0;
+  border-radius: 10px;
+  background: #ffbb00;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.uz:hover {
+  border: 1px solid rgb(255, 145, 0);
+  background: rgba(128, 128, 128, 0);
+  transition: 1s;
+}
+
+.en {
+  appearance: none;
+  border: 0;
+  border-radius: 10px;
+  background: #ffbb00;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.en:hover {
+  border: 1px solid rgb(255, 145, 0);
+  background: rgba(128, 128, 128, 0);
+  transition: 1s;
+}
+
+.ru {
+  appearance: none;
+  border: 0;
+  border-radius: 10px;
+  background: #ffbb00;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.ru:hover {
+  border: 1px solid rgb(255, 145, 0);
+  background: rgba(128, 128, 128, 0);
+  transition: 1s;
+}
+
+.bigtext {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.anon {
+  font-size: 200px;
+  font-family: Poppins;
+  font-weight: 700;
+  word-wrap: break-word;
+  background-clip: text;
+}
+
+.inf {
+  height: auto;
+  width: 500px;
+  padding-left: 2%;
+  color: #F6F2DB;
+  font-size: 30px;
+  font-family: Poppins;
+  font-weight: 300;
+  letter-spacing: 3px;
+  word-wrap: break-word;
+}
+
+.gold {
+  height: 350px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  margin-top: -27%;
+  padding-left: 52%;
+  position: absolute;
+}
+
+.team {
+  font-size: 180px;
+  font-family: Poppins;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-top: -10%;
+  padding-left: 60%;
+}
+
+.inf2 {
+  position: absolute;
+  height: 300px;
+  width: 600px;
+  bottom: 0;
+  left: 55%;
+  color: #f6f2db27;
+  font-size: 30px;
+  font-family: Poppins;
+  font-weight: 300;
+  letter-spacing: 3px;
+  align-items: end;
+}
+
+.contact_us {
+  appearance: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border: 1px solid white;
+  border-radius: 3px;
+  background: #ffbb0000;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 20px;
+  padding: 15px;
+  margin: 60px;
+  position: absolute;
+}
+
+.contact_us:hover {
+  border: 1px solid rgb(255, 255, 255);
+  background: rgb(107, 78, 41);
+  transition: 1s;
+  cursor: pointer;
+}
+
+.center {
+  background-color: #1B1B1B;
+  height: 100vh;
+  width: 100%;
+}
+
+.about_us {
+  color: whitesmoke;
+  text-align: center;
+  justify-content: center;
+  height: 200px;
+  width: 800px;
+  margin: 20px 18%;
+  margin-top: 40px;
+  position: absolute;
+}
+
+.about_us p {
+  margin: 25px;
+  text-align: center;
+  justify-content: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #d9ff01;
+  border-radius: 10px;
+  margin: 20px 1em;
+  margin-top: 20%;
+  padding: 2em;
+  width: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  text-align: center;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px 0 rgba(255, 196, 1, 0.2);
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.card h3 {
+  font-size: 1.2em;
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+
+.card p {
+  font-size: 15px;
+  margin: 5px;
+  padding-top: 10px;
+}
+
+.card a {
+  color: #991b1b;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px;
+  border-radius: 2px;
+  font-family: cursive;
+  font-size: 10px;
+  padding: 10px;
+}
+
+.card a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #991b1b;
+  border-radius: 2px;
+  transform: scaleX(0);
+  transition: transform 0.2s ease;
+}
+
+.card a:hover::before {
+  transform: scaleX(1);
+}
+
+.our_prices {
+  appearance: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 1px solid white;
+  border-radius: 3px;
+  background: #ffbb0000;
+  color: #F6F2DB;
+  position: absolute;
+  margin-top: 45%;
+  padding: 10px;
+}
+
+.our_prices:hover {
+  border: 1px solid rgb(255, 255, 255);
+  background: rgb(107, 78, 41);
+  transition: 1s;
+  cursor: pointer;
+}
+
+.description {
+  height: 150vh;
+  width: 100%;
+  background-color: #1B1B1B;
+}
+
+.overall {
+  color: whitesmoke;
+  text-align: center;
+  justify-content: center;
+  height: 200px;
+  width: 800px;
+  margin: 20px 20%;
+  margin-top: 80px;
+  position: absolute;
+}
+
+.web_design {
+  position: absolute;
+  padding: 25px;
+  margin-top: 25%;
+  height: 200px;
+  width: 400px;
+  font-style: italic;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.web_design h3 {
+  text-align: justify;
+  color: wheat;
+  padding: 20px;
+}
+
+.web_design p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.01rem;
+  color: #F6F2DB;
+}
+
+.web_design > img {
+  height: 400px;
+  width: 650px;
+}
